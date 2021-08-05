@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #31352E;
+    --secondary-color: #EBEBE8;
+    --tertiary-color: #D1E2C4;
+    --tetrary-color: #778A35;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--tertiary-color);
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--tetrary-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    z-index: 9999;
+}
+
+.intro {
+    text-align: center;
+}
+
+.profile-pic {
+    max-height: 150px;
+    border-radius: 20%;
+    
+}
+

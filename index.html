@@ -9,27 +9,69 @@
 </head>
 <body>
     <header>
-        <img src="./assets/images/profile-pic.jpeg" alt="Brian Kaufman in a light blue shirt in front of a stone wall">
+        <img class="profile-pic" src="./assets/images/profile-pic.jpeg" alt="Brian Kaufman in a light blue shirt in front of a stone wall">
         <section>Brian Kaufman</section>
-        <div>About Me</div>
-        <div>My Work</div>
-        <div>Contact Me</div>
+        <ul>
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#my-work">My Work</a>
+            </li>
+            <li>
+                <a href="#contact-me">Contact Me</a>
+            </li>
+        </ul>
     </header>
-    <h1>About Me</h1>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iste harum magni vel quia? Perspiciatis quidem, accusantium quod tenetur ex repudiandae quaerat. Sunt repellat architecto assumenda rerum veniam quis perspiciatis!
-    </div>
-    <h1>My Work</h1>
-    <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
-    <h1>Contact Me</h1>
-    <ul>
-        <li>913-991-3541</li>
-        <li>bpkaufman4@gmail.com</li>
-        <li>5016 Conser St. Apt. 182, Overland Park, KS 66202</li>
-    </ul>
+    
+    <section id="about-me" class="intro">
+        <div class="flex-row">
+        <h1 class="">About Me</h2>
+        </div>
+        <div class="flex-row">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus asperiores cupiditate fugit at, quam fuga iusto, velit nihil rem voluptates eius laborum suscipit recusandae quasi dolor inventore possimus odit!
+        </p>
+        </div>
+    </section>
+    
+    <section id="my-work" class="intro">
+        <div class="flex-row">
+            <h1>My Work</h1>
+        </div>
+        <div class="flex-row">
+            <ul>
+                <li>
+                    <a href="https://bpkaufman4.github.io/Group-2-project-1/">
+                    <img class="profile-pic" src="./assets/images/Screen Shot 2021-08-05 at 11.06.57 AM.png" alt="Screenshot of Covid Event site">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="site-thumbnail" src="" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="site-thumbnail" src="" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact-me" class="intro">
+        <div class="flex-row">
+            <h1>Contact Me</h1>
+        </div>
+        <address>
+            5016 Conser St.<br/>
+            Apt. 182<br/>
+            Overland Park, KS<br/>
+            66202<br />
+            P: 913.991.3541<br/>
+            E: <a href="mailto:bpkaufman4@gmail.com">bpkaufman4@gmail.com</a>
+        </address>
+    </section>
 </body>
 </html>
