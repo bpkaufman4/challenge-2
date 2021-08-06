@@ -66,13 +66,46 @@ header ul li a {
     align-items: center;
 }
 
-.intro {
-    text-align: center;
-}
 
 .profile-pic {
     max-height: 150px;
     border-radius: 20%;
-    
 }
 
+.intro {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.my-work {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.site-thumbnail {
+    max-width: 200px;
+    border-radius: 10%;
+}
+
+
+.site-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 20px 0 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 4px solid;
+    border-color: var(--tetrary-color);
+}
